@@ -1,0 +1,53 @@
+@media (max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+        
+    }
+    #nav li{
+        display: block;
+    }
+    #nav li:first-child{
+        display: inline-block;
+    }
+    #nav li a{
+        display: block;
+    
+    }
+    .subnav li {
+        width: 100%;
+        padding: 0 21px;
+        background-color: rgb(139, 139, 139);
+    }
+    .mobie-menu-btn{
+        position: absolute;
+        top: 0;right: 0;
+    }
+    .s-col-full{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .member-list .member-item .img-mobie{
+        width:60%;
+        height: 246px;      
+    }
+    .member-list{
+        overflow: hidden;
+    }
+    .s-slider-text{
+        margin-bottom: 0 !important;
+    }
+}
+@media (min-width: 741px){
+    .mobie-menu-btn{
+        display: none;
+    }
+    .search-btn{
+        display: block;
+    }
+}

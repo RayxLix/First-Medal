@@ -1,0 +1,290 @@
+#main {
+}
+
+#header {
+    height: 48px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+#nav {
+    list-style: none;
+    display: inline-block;
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+.nav-down-icon {
+    font-size: 17px;
+    display: inline-block;
+}
+#nav ul {
+}
+#nav li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+#nav li a {
+    padding: 0 24px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 48px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#nav .subnav {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+    top: 100%;
+}
+.display-none{
+    display: none;
+}
+#nav li:hover .subnav {
+    display: block;
+}
+.subnav li {
+    text-decoration: none;
+    min-width: 140px;
+}
+#nav .subnav li a {
+    text-transform: capitalize;
+    color: #000;
+    display: block;
+    padding-left: 10px;
+    line-height: 40px;
+}
+#header .mobie-menu-btn,
+#header .search-btn {
+    float: right;
+    cursor: pointer;
+}
+#header .menu-icon,
+.search-icon {
+    color: #fff;
+    font-size: 15px;
+    line-height: 48px;
+    padding: 0 21px;
+}
+.search-btn:hover {
+    background-color: #f44336;
+}
+#header .mobie-menu-btn:hover .menu-icon{
+    background-color: #ccc;
+    color: #000;
+}
+#slider {
+    background-color: #ccc;
+    margin-top: 48px;
+    padding-top: 50%;
+    background: url(./img/silerMain.jpg) top center / cover no-repeat;
+    position: relative;
+}
+.text-content {
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 47px;
+}
+.text-heading {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+.text-desc {
+    font-weight: 600;
+}
+
+
+#content {
+
+}
+.content-section{
+    width: 800px;
+    max-width: 100%;
+    padding: 64px 16px;
+    margin: auto;    
+
+}
+.content-first{
+    text-align: center;
+}
+.section-heading{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 4px;
+}
+.section-desc{
+    opacity: .7;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+.about-text{
+    text-align: justify;
+}
+.member-list{
+    margin-top: 48px;
+}
+.member-item{
+    
+    text-align: center !important;
+
+}
+.member-name{
+margin: 15px 0;
+}
+.member-item img{
+    width: 184px;
+    height: 184px;
+    border-radius:4px;
+   
+    display: inline-block;
+}
+.tour-section{
+    background-color:#000;
+    color: #fff;
+}
+
+.ticket-list{
+    margin-top: 30px;
+    background-color: #fff;
+    list-style: none;
+}
+.ticket-list li{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.sold-out{
+    background-color: #f44336;
+    padding: 2px 8px;
+    margin-left: 12px;
+    color: #fff;
+}
+.quantity{
+    background-color: #000;
+    color: #fff;
+    padding:0  8px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.place-tour-list{
+    padding: 32px 0;
+
+}
+
+.place-tour-item img{
+   height: 184px;
+   object-fit:cover;
+   display:block;
+   
+}
+.place-tour-item img:hover{
+    opacity: 0.7;
+}
+.place-tour-content{
+    background-color: #fff;
+    padding: 0 16px;
+    color: #000;
+}
+.location{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.time-of-tour{
+    opacity: .7;
+}
+.tour-place-desc{
+    margin: 15px 0;
+}
+.tour-place-buy-btn{
+    padding: 9px 9px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.contact-content{
+    overflow: hidden;
+}
+
+.contact-content{
+    padding: 32px 0;
+}
+.contact-info{
+    font-size: 18px;
+    line-height: 1.7;
+}
+.contact-form{
+    font-size: 15px;
+    line-height: 22.5px;
+}
+.contact-info i{
+    margin-right: 4px;
+    width: 30px;
+}
+.form-control{
+    padding: 10px;
+    width: 100%;
+}
+.contact-message{
+    margin-top: 10px;
+}
+.contact-btn{
+    float: right;
+    margin: 16px 0;
+    padding: 11px 17px;
+    background-color: #000;
+    color: #fff;
+    border:none;
+    
+}
+.map-section{
+    filter: grayscale(50%);
+}
+
+
+#footer {    
+    padding: 64px 16px;
+    text-align: center;
+}
+.footer-icon{
+    font-size: 24px;
+}
+.footer-icon a i{
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0 4px;
+
+}
+.footer-icon a{
+    text-decoration: none;
+}
+.footer-icon a:hover{
+    opacity:.7;
+}
+.footer-text{
+    margin-top: 12px;
+}
+.footer-icon a{
+    color:rgba(0, 0, 0, 0.7)
+}
+
+
